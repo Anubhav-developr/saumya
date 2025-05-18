@@ -1,0 +1,18 @@
+def percentage(m1,m2,m3,m4,m5):
+    grade=0
+    total=m1+m2+m3+m4+m5
+    per=total/5
+    if per>=90:
+        grade='a1'
+    elif per>=80:
+        grade="a2"
+    elif per>=70:
+        grade="b1"
+    elif per>=50:9999999999999999999999999999999999999999999999999999999999999999999999999999999999
+        grade='b2'
+    elif per>=33:
+        print('pass')
+    else:
+        print("fail,below 33%")
+    return grade,per
+print("percentage is ",percentage(31,98,56,91,100))
